@@ -1,4 +1,4 @@
-# OrganizationProject
+# Organization Project
 
 
 The purpose of this project is to host a single endpoint that returns a summary of a list of Organizations.
@@ -35,8 +35,8 @@ This application gets its data from another RESTFUL resource which throttles its
 The exponential backup approach with Jitter was utilized to counteract any issues with throttling.
 
 The formula to calculate the amount of time to pause before sending another request is... 
-
+```
 sleep = random_between(0, min(cap, base * 2 ** attempt))
-
+```
 I decided that the hard cap in this sample would be 32 seconds.
 
