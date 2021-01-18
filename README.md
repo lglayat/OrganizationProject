@@ -1,5 +1,6 @@
 # Organization Project
 
+The project is a ASP.NET Core Web Application written in C#.
 
 The purpose of this project is to host a single endpoint that returns a summary of a list of Organizations.
 
