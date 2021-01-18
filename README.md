@@ -7,6 +7,7 @@ This data will be returned in the form of a JSON object with other objects neste
 
 A sample of the data structure detailed below:
 
+```
 [{
 	"id": "1",
 	"name": "Luettgen LLC",
@@ -25,7 +26,9 @@ A sample of the data structure detailed below:
 	"id": "2",
 	…
 }]  
+```
 
+## Approach
 
 This application gets its data from another RESTFUL resource which throttles its API limit to 15 requests in 20 second intervals.
 
